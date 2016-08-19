@@ -131,14 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-@media (max-width: 600px) {
-  #headerwrap{
-    padding-top:126px;
-  }
-  #headerwrap h1 {
-    font-size: 65px;
-  }
-}
+
 
 
 #headerwrap h4 {
@@ -247,4 +240,19 @@ h1, h2, h3, h4, h5, h6 {
 h1,.claim{
 font-style:bold;
 text-shadow: 2px 2px #ff0000;
+}
+
+
+@media (max-width: 600px) {
+  #headerwrap{
+    padding-top:126px;
+    min-height: 500px;
+  }
+  #headerwrap h1 {
+    font-size: 47px;
+  }
+  #footerwrap {
+  padding-top: 24px;
+  padding-bottom: 30px;
+  }
 }
